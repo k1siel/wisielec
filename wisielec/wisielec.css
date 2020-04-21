@@ -1,0 +1,81 @@
+body {
+    font-size: 28px;
+    background-color: rgb(201, 215, 238);
+    color: rgb(42, 51, 65);
+    font-family: 'Ubuntu Mono', monospace;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+#container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#plansza {
+    width: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 52px;
+    min-height: 80px;
+    
+}
+
+#szubienica {
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 300px;
+    margin-right: 20px;
+}
+
+#alfabet {
+    float: left;
+    width: 450px;
+    text-align: center;
+    min-height: 300px;
+    margin-left: 20px;
+}
+
+.litera
+{
+	width: 30px;
+	height: 30px;
+	text-align:center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid rgb(97, 112, 133);
+	float: left;
+	cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(165, 182, 209)
+}
+
+.litera:hover
+{
+	background-color: rgb(160, 177, 204);
+	color: rgb(223, 229, 233);
+	border: 3px solid rgb(237, 240, 243);
+}
+
+
+
+.restart
+{
+	color:#42964F;
+	cursor: pointer;
+	font-size: 48px;
+}
+
+.restart:hover
+{
+	color:rgb(31, 82, 40);
+}
